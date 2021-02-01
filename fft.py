@@ -33,5 +33,7 @@ def poly_multi(a, b):
     a_dot_b = [fft_a[i]*fft_b[i] for i in range(2*n_a)]
     #print(a_2n, '\n', b_2n, '\n', fft_a, '\n', fft_b, '\n', a_dot_b)
     return [xx/(2*n_a) for xx in recursive_fft(a_dot_b, inverse=True)]
-
-poly_multi(a, b)
+print(a)
+print(b)
+c = poly_multi(a, b)
+print(c)
