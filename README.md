@@ -1,1 +1,1 @@
-# CLRS_py
+python implementation of pseudo code in CLRS
