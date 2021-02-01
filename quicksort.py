@@ -1,6 +1,5 @@
-import numpy as np
-
-%timeit quicksort(np.random.choice(20, 20, replace=False), 0, 19)
+#import numpy as np
+#%timeit quicksort(np.random.choice(20, 20, replace=False), 0, 19)
 
 A = [2, 8, 7, 1, 3, 5, 6, 4]
 
